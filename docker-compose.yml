@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  php:
+    volumes:
+      - /Users/davischoll/PhpProjects/landing-mini-car-phone:/var/www/html
+    image: library/php:8.0.1-apache
+    container_name: php8
+    ports:
+      - 8080:80
