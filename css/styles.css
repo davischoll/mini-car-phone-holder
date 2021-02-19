@@ -247,45 +247,50 @@ section iframe {
   }
 }
 
-section.features .section-heading {
-  margin-bottom: 50px;
+section.parte3 {
+  padding-bottom: 10px;
 }
 
-section.features .section-heading h2 {
+section.parte3 .section-heading {
+  margin-bottom: 25px;
+}
+
+section.parte3 .section-heading h2 {
   margin-top: 0;
 }
 
-section.features .section-heading p {
+section.parte3 .section-heading p {
   margin-bottom: 0;
 }
 
-section.features .device-container,
-section.features .feature-item {
+section.parte3 .device-container,
+section.parte3 .parte3-item {
   max-width: 325px;
   margin: 0 auto;
 }
 
-section.features .device-container {
+section.parte3 .device-container {
   margin-bottom: 100px;
 }
 
 @media (min-width: 992px) {
-  section.features .device-container {
+  section.parte3 .device-container {
     margin-bottom: 0;
   }
 }
 
-section.features .feature-item {
-  padding-top: 50px;
-  padding-bottom: 50px;
+section.parte3 .parte3-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
-section.features .feature-item h3 {
-  font-size: 30px;
+section.parte3 .parte3-item img {
+  width: 315px;
+  height: 345px;
 }
 
-section.features .feature-item i {
+section.parte3 .parte3-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
@@ -297,9 +302,9 @@ section.features .feature-item i {
 
 section.cta {
   position: relative;
-  padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
-  background-position: center;
+  padding: 400px 0 100px 0;
+  background-image: url("../img/painel-carro.png");
+  background-position: top;
   background-size: cover;
 }
 
@@ -309,16 +314,20 @@ section.cta .cta-content {
 }
 
 section.cta .cta-content h2 {
-  font-size: 50px;
-  max-width: 450px;
+  font-size: 30px;
+  max-width: 350px;
   margin-top: 0;
   margin-bottom: 25px;
   color: white;
 }
 
 @media (min-width: 768px) {
+  section.cta {
+    padding: 125px 0 450px 0;
+  }
   section.cta .cta-content h2 {
-    font-size: 80px;
+    font-size: 40px;
+    max-width: 768px;
   }
 }
 
@@ -337,7 +346,7 @@ section.contact {
 
 section.contact h2 {
   margin-top: 0;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 section.contact h2 i {
@@ -383,7 +392,7 @@ section.contact ul.list-social li.social-google-plus a:hover {
 }
 
 footer {
-  padding: 25px 0;
+  padding: 10px 0;
   text-align: center;
   color: rgba(255, 255, 255, 0.3);
   background-color: #222222;
